@@ -1,5 +1,5 @@
 <app-header></app-header>
 <main>
-  <app-posts-create></app-posts-create>
-  <app-post-list></app-post-list>
+  <app-posts-create (addPostEvent)="postAdded($event)"></app-posts-create>
+  <app-post-list [posts]="storedPosts"></app-post-list>
 </main>
