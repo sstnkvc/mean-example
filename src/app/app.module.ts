@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { PostsCreateComponent } from './posts/posts-create/posts-create.component';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/posts-list/post-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { PostListComponent } from './posts/posts-list/post-list.component';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
