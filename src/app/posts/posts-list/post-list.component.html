@@ -18,13 +18,13 @@
   </mat-expansion-panel>
 </mat-accordion>
 
-<mat-paginator
+<!-- <mat-paginator
   (page)="onChangePange($event)"
   [length]="posts.length"
   [pageSize]="2"
   [pageSizeOptions]="[1, 2, 5, 10]"
   aria-label="Select page"
 >
-</mat-paginator>
+</mat-paginator> -->
 
 <p class="info-text body-2" *ngIf="posts.length === 0">No posts yet!</p>
